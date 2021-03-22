@@ -1,0 +1,14 @@
+{
+  "name": "simple_downloader",
+  "version": "1.0.0",
+  "description": "simple downloader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Knightingal",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
