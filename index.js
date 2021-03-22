@@ -8,6 +8,15 @@
 
   const urlList = require("./list.json");
 
+  function mkdirs(dirpath) {
+    if (!fs.existsSync(path.dirname(dirpath))) {
+      mkdirs(path.dirname(dirpath));
+    }
+    try {
+      fs.mkdirSync(dirpath);
+    } catch (e) {}
+  }
+
   function getHttpReqCallback(url, dirName, index) {
     var fileName = path.basename(url);
     var callback = function (res) {
@@ -50,6 +59,7 @@
           )
         );
 
+        mkdirs(dirName);
         fs.appendFile(dirName + "/" + fileName, totalBuff, function (err) {});
       });
     };

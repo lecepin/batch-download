@@ -19,3 +19,5 @@ node .
 ### 下载位置
 
 默认执行下载后，文件会存储在当前目录的 `downloads` 文件夹中。
+
+![](https://img.alicdn.com/imgextra/i2/O1CN01EL20ky1cdNcEteS7l_!!6000000003623-2-tps-1672-600.png)
