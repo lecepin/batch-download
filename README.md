@@ -20,4 +20,4 @@ node .
 
 默认执行下载后，文件会存储在当前目录的 `downloads` 文件夹中。
 
-![](https://img.alicdn.com/imgextra/i2/O1CN01EL20ky1cdNcEteS7l_!!6000000003623-2-tps-1672-600.png)
+![image](https://user-images.githubusercontent.com/11046969/146113604-fe30b21e-8215-410c-9db8-661b039f9dc9.png)
